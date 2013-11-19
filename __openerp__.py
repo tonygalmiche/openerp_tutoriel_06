@@ -25,11 +25,9 @@ Cet exemple ajoute le champ 'prenom' aux tiers.
   "init_xml" : [],             # Liste des fichiers XML à installer uniquement lors de l'installation du module
   "demo_xml" : [],             # Liste des fichiers XML à installer pour charger les données de démonstration
 
-  "update_xml" : [],           # Liste des fichiers XML à installer lors d'une mise à jour du module (ou lord de l'installation)
+  "update_xml" : ["infosaone_partner_view.xml"], # Liste des fichiers XML à installer lors d'une mise à jour du module (ou lord de l'installation)
 
   "installable": True,         # Si False, ce module sera visible mais non installable (intéret ?)
   "active": False              # Si True, ce module sera installé automatiquement dés la création de la base de données d'OpenERP
 }
 
-
-6

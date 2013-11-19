@@ -3,4 +3,3 @@
 from osv import osv
 from osv import fields
 
-
