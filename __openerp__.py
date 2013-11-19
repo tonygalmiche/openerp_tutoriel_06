@@ -13,9 +13,9 @@ InfoSaône / Module OpenERP Tutoriel 06
 
 Le but de ce module est de montrer comment ajouter un champ sur un objet existant.
 
-Ce module installe le module CRM pour pouvoir modifier le modele des tiers.
+Ce module installe le module CRM pour pouvoir modifier le modèle des clients (partner).
 
-Cet exemple ajoute le champ 'prenom' aux tiers.
+Cet exemple ajoute le champ `prenom` au modèle `partner`.
 
 """,
 

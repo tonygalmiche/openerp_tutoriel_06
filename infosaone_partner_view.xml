@@ -2,17 +2,28 @@
 <openerp>
     <data>
 
+        <!-- L'id n'a pas d'importance mais doit être unique -->
         <record model="ir.ui.view" id="infosaone_view_partner_form">
+
+             <!-- Le name n'a pas d'importance mais il permet de retrouver le modèle dans la liste -->
             <field name="name">infosaone.res.partner.form.inherit</field>
+
+            <!-- Le nom du modèle doit être le même que celui d'origine à surcharger -->
             <field name="model">res.partner</field>
+
+            <!-- Indique l'identifiant de la vue à surcharger -->
             <field name="inherit_id" ref="base.view_partner_form"/>
+
+
             <field name="arch" type="xml">
 
+                <!-- Ajoute le champ 'prenom' avant le champ 'nom' seulement si le champ 'Société' n'est pas coché -->
                <field name="name" position="before">
                     <field name="prenom" placeholder="Prénom" string="Prénom" attrs="{'invisible': [('is_company','=', True)]}"/>
                </field>
-
             </field>
+
+
         </record>   
 
     </data>
