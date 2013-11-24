@@ -1,4 +1,4 @@
-InfoSaône / OpenERP Tutoriel 06
+InfoSaône / OpenERP Tutoriel 06 - Ajout d'un champ sur un objet
 ===================
 
 Le but de ce module est de montrer comment ajouter un champ sur un objet existant.
